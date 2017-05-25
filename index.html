@@ -47,6 +47,24 @@
         border-radius: 999px;
         padding: 35px 0px;
     }
+    .more{
+        text-align: justify;
+    }
+    .brands-column{
+        padding: 0 20px;
+    }
+    .box-form{
+        width: 25%;
+        float: right;
+        right: 3%;
+        background: rgba(255, 255, 0, 0.4);
+        padding: 8px 10px;
+        margin-top: -25%;
+        border-radius: 2px;
+        position: absolute;
+        border: 2px solid #2e2e2e;
+        z-index: 99;
+    }
 </style>
 </head>
 
@@ -110,24 +128,32 @@
             <div class="content_wrapper clearfix">
                 <div class="sections_group">
                     <div class="entry-content">
-                        <div class="section mcb-section " style="padding-top:120px; padding-bottom:80px; background-image:url(content/design2/images/home_design2_sectionbg.jpg); background-repeat:no-repeat; background-position:center top; background-attachment:fixed; background-size:cover; -webkit-background-size:cover" data-enllax-ratio="-0.3">
+                        <div class="section mcb-section " style="padding-top:90px; padding-bottom:80px; background-image:url(content/design2/images/home_design2_sectionbg.jpg); background-repeat:no-repeat; background-position:center top; background-attachment:fixed; background-size:cover; -webkit-background-size:cover" data-enllax-ratio="-0.3">
                             <div class="section_wrapper mcb-section-inner">
                                 <div class="wrap mcb-wrap one clearfix">
                                     <!-- One Second (1/2) Column -->
-                                    <div class="column mcb-column one-second column_column">
-                                        <div class="column_attr" style=" padding:70px 10% 0 0;">
+                                    <div class="column mcb-column one column_column">
+                                        <div class="column_attr" style=" padding:0px 27% 0 0;">
                                             <h5></h5>
                                             <hr class="no_line" style="margin: 0 auto 20px;" />
                                             <h1>MADE FOR YOU</h1>
                                             <hr class="no_line" style="margin: 0 auto 20px;" />
-                                            <h4>A business model that saves ​you money.</h4>
-                                            <h5>Manufactured in the Factory  - No Huge Retail Mark Ups - Direct to the Consumers.</h5>
-                                            <a class="button button_large button_theme button_js" href="#"><span class="button_label">Read more...</span></a>
+                                            <h4>The desire to provide the most comfortable and renowned global mattress brands at affordable prices led to the birth of SleepNest.</h4>
+                                            <h4>A Warehouse model that offers no frills but provides the best prices to customers on account of low overhead and low retail costs.</h4>
+<h4>
+We house International mattress brands like Sealy from Texas, Therapedic from New Jersey, Savoir , VI-Spring & Dream Catcher from the UK  and Hästens from Sweden.
+</h4><h4>
+These are among the oldest and most respected brands in the world and offers superior comfort, technology & the ultimate sleep experience.
+</h4><h4>
+At SleepNest, we take pride in ensuring that every mattress from us is sourced directly from the Company.
+</h4>
+                                            <!--<h5>Manufactured in the Factory  - No Huge Retail Mark Ups - Direct to the Consumers.</h5>-->
+                                            <a class="button button_large button_theme button_js" href="#brands"><span class="button_label">Explore</span></a>
                                         </div>
                                     </div>
-                                    <!-- One Second (1/2) Column -->
+                                     <!--One Second (1/2) Column 
                                     <div class="column mcb-column one-second column_slider_plugin ">
-                                        <!-- Revolution slider area-->
+                                         Revolution slider area
                                         <div class="mfn-main-slider" id="mfn-rev-slider">
                                             <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
                                                 <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.1.4">
@@ -144,15 +170,42 @@
 
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
-                        <div class="section mcb-section " style="padding-top:120px; padding-bottom:100px; ">
+                        <div class="box-form">
+                            <h3 style="text-align:center;">Enquire for best deals</h1>
+                            <div role="form" class="wpcf7" id="wpcf7-f63-p27-o1" lang="en-US" dir="ltr">
+                                <div class="screen-reader-response"></div>
+                                <div id="contactWrapper">
+                                    <form id="contactform">
+                                        <!-- One Second (1/2) Column -->
+                                        <div class="column one-second">
+                                            <input placeholder="Your name" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
+                                        </div>
+                                        <!-- One Second (1/2) Column -->
+                                        <div class="column one-second">
+                                            <input placeholder="Your e-mail" type="email" name="email" id="email" size="40" aria-required="true" aria-invalid="false" />
+                                        </div>
+                                        <div class="column one">
+                                            <input placeholder="Subject" type="text" name="subject" id="subject" size="40" aria-invalid="false" />
+                                        </div>
+                                        <div class="column one">
+                                            <textarea placeholder="Message" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
+                                        </div>
+                                        <div class="column one">
+                                            <input type="button" value="Send A Message" id="submit" onClick="return check_values();">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="section mcb-section " style="padding-top:120px; padding-bottom:100px; ">
                             <div class="section_wrapper mcb-section-inner">
-                                <!-- One Second (1/2) Column -->
+                                 One Second (1/2) Column 
                                 <div class="wrap mcb-wrap one-second clearfix" style="padding:0 5%; ">
-                                    <!-- One Full Row-->
+                                     One Full Row
                                     <div class="column mcb-column one column_column">
                                         <div class="column_attr align_right">
                                             <h4>Complete Transparency</h4>
@@ -162,16 +215,16 @@
                                     </div>
                                 </div>
                                 <div class="wrap mcb-wrap one-sixth column-margin-20px clearfix">
-                                    <!-- One Full Row-->
+                                     One Full Row
                                     <div class="column mcb-column one column_hover_box ">
                                         <div class="hover_box">
                                             <a href="#">
-                                                <div class="hover_box_wrapper"><img class="visible_photo scale-with-grid" src="content/design2/images/home_design2_hoverbox1.png" alt="" width="128" height="112" /> <!-- <img class="hidden_photo scale-with-grid" src="content/design2/images/home_design2_hoverbox1b.png" alt=""> -->
+                                                <div class="hover_box_wrapper"><img class="visible_photo scale-with-grid" src="content/design2/images/home_design2_hoverbox1.png" alt="" width="128" height="112" />  <img class="hidden_photo scale-with-grid" src="content/design2/images/home_design2_hoverbox1b.png" alt=""> 
                                                 </div>
                                             </a>
                                         </div>
                                     </div>
-                                    <!-- One Full Row-->
+                                     One Full Row
                                     <div class="column mcb-column one column_column">
                                         <div class="column_attr align_center">
                                             <p class="big">
@@ -182,7 +235,7 @@
                                     </div>
                                 </div>
                                 <div class="wrap mcb-wrap one-sixth column-margin-20px clearfix">
-                                    <!-- One Full Row-->
+                                     One Full Row
                                     <div class="column mcb-column one column_hover_box ">
                                         <div class="hover_box">
                                             <a href="#">
@@ -191,7 +244,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <!-- One Full Row-->
+                                     One Full Row
                                     <div class="column mcb-column one column_column">
                                         <div class="column_attr align_center">
                                             <p class="big">
@@ -202,7 +255,7 @@
                                     </div>
                                 </div>
                                 <div class="wrap mcb-wrap one-sixth column-margin-20px clearfix">
-                                    <!-- One Full Row-->
+                                     One Full Row
                                     <div class="column mcb-column one column_hover_box ">
                                         <div class="hover_box">
                                             <a href="#">
@@ -211,7 +264,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <!-- One Full Row-->
+                                     One Full Row
                                     <div class="column mcb-column one column_column">
                                         <div class="column_attr align_center">
                                             <p class="big">
@@ -222,49 +275,43 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
         <!--brands -->
-        <div id="Content">
+        <div id="brands">
             <div class="content_wrapper clearfix">
                 <div class="sections_group">
                     <div class="entry-content">
-                        <div class="section mcb-section " style="padding-top:0px; padding-bottom:80px; ">
+                        <div class="section mcb-section " style="padding-top:90px; padding-bottom:80px; ">
                             <div class="section_wrapper mcb-section-inner">
-                                 <div class="column_attr align_center">
+                                 <div class="column_attr align_center" style="padding-top:0px; margin-bottom:40px; ">
                                      <h2>Brands that we offer</h2>
                                  </div>
-                                <!-- One Third (1/3) Column -->
-                                <div class="wrap mcb-wrap one-third column-margin-20px clearfix">
+                                 <!-- One Third (1/3) Column -->
+                                <div class="wrap mcb-wrap one-third column-margin-20px brands-column clearfix">
                                     <!-- One Full Row-->
                                     <div class="column mcb-column one column_image ">
                                         <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                            <div class="image_wrapper"><img class="scale-with-grid" src="content/design2/images/hasten.jpg" alt="" width="600" height="660" />
+                                            <div class="image_wrapper"><img class="scale-with-grid" src="content/design2/images/sealy.jpg" alt="" width="600" height="660" />
                                             </div>
                                         </div>
                                     </div>
                                     <!-- One Full Row-->
                                     <div class="column mcb-column one column_column">
                                         <div class="column_attr align_center">
-                                            <h4>Hästens</h4>
+                                            <h4>Sealy</h4>
                                             <p class="more">
-                                                Hastens is the world's most comfortable and iconic bed manufacturing company.
+                                               Sealy has a long history of making quality beds. The first Sealy mattresses were made in 1881, in a small town called ‘Sealy’ in Texas, USA. In 1950, Sealy introduced its first Sealy Posturepedic brand mattress, the only mattress in the industry that focused on the importance of correct back support, designed in cooperation with Orthopaedic Surgeons.
 
-                                                At Hästens, our passion is Sleep. Since 1852 it has been our mission to make this world a better place, by providing the best possible sleep. And, to provide the best sleep, we create the Best Beds.
+Sealy is the number one choice of bedding with the title of World’s No.1 Selling Mattresses for over 30 years. 100 million people worldwide are experiencing the benefits of a better night’s sleep from Sealy’s mattresses for back pain.
 
-                                                Every Hästens bed comes with a warranty of 25 years. Our beds are endorsed not only by the Swedish Royal Family but also by HNIs and connoisseurs across the world.
-
-                                                Hästens beds are free from potentially cancerous materials such as foam, rubber, polyurethane, latex and other synthetic components used by most of the bed manufacturers.
-
-                                                Hästens beds are made with the finest natural materials that allow your body to breathe while you sleep. Pure natural horsehair, cotton, wool, flax, Swedish pine and steel provide the best in comfort, quality and durability. Our unique, patented spring systems offer the perfect support to the neck and the back.
-
-                                                Our goal is to ensure that the 8 hours of your day you spend sleeping, are a relaxing and a rejuvenating experience that you can share with your loved ones.
-                                                Investing in a Hästens bed is truly a life-changing experience!
+Developed in conjunction with leading orthopedic surgeons from The USA, Sealy’s better sleep technology, infused in their mattresses for back pain, has been providing superior harmony of support, comfort and durability for over 100 years.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
+                                
                                 <!-- One Third (1/3) Column -->
-                                <div class="wrap mcb-wrap one-third column-margin-20px clearfix">
+                                <div class="wrap mcb-wrap one-third column-margin-20px brands-column clearfix">
                                     <!-- One Full Row-->
                                     <div class="column mcb-column one column_image ">
                                         <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
@@ -302,7 +349,7 @@
                                     </div>
                                 </div>
                                 <!-- One Third (1/3) Column -->
-                                <div class="wrap mcb-wrap one-third column-margin-20px clearfix">
+                                <div class="wrap mcb-wrap one-third column-margin-20px brands-column clearfix">
                                     <!-- One Full Row-->
                                     <div class="column mcb-column one column_image ">
                                         <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
@@ -330,32 +377,39 @@ Vi Spring mattresses will certainly enhance your sleep experience
                                         </div>
                                     </div>
                                 </div>
-                                <div class="wrap mcb-wrap divider column-margin-20px clearfix"></div>
+                                <div class="wrap mcb-wrap divider column-margin-20px brands-column clearfix"></div>
                                 <!-- One Third (1/3) Column -->
                                 <div class="wrap mcb-wrap one-third column-margin-20px clearfix">
                                     <!-- One Full Row-->
                                     <div class="column mcb-column one column_image ">
                                         <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                            <div class="image_wrapper"><img class="scale-with-grid" src="content/design2/images/sealy.jpg" alt="" width="600" height="660" />
+                                            <div class="image_wrapper"><img class="scale-with-grid" src="content/design2/images/hasten.jpg" alt="" width="600" height="660" />
                                             </div>
                                         </div>
                                     </div>
                                     <!-- One Full Row-->
                                     <div class="column mcb-column one column_column">
                                         <div class="column_attr align_center">
-                                            <h4>Sealy</h4>
+                                            <h4>Hästens</h4>
                                             <p class="more">
-                                               Sealy has a long history of making quality beds. The first Sealy mattresses were made in 1881, in a small town called ‘Sealy’ in Texas, USA. In 1950, Sealy introduced its first Sealy Posturepedic brand mattress, the only mattress in the industry that focused on the importance of correct back support, designed in cooperation with Orthopaedic Surgeons.
+                                                Hastens is the world's most comfortable and iconic bed manufacturing company.
 
-Sealy is the number one choice of bedding with the title of World’s No.1 Selling Mattresses for over 30 years. 100 million people worldwide are experiencing the benefits of a better night’s sleep from Sealy’s mattresses for back pain.
+                                                At Hästens, our passion is Sleep. Since 1852 it has been our mission to make this world a better place, by providing the best possible sleep. And, to provide the best sleep, we create the Best Beds.
 
-Developed in conjunction with leading orthopedic surgeons from The USA, Sealy’s better sleep technology, infused in their mattresses for back pain, has been providing superior harmony of support, comfort and durability for over 100 years.
+                                                Every Hästens bed comes with a warranty of 25 years. Our beds are endorsed not only by the Swedish Royal Family but also by HNIs and connoisseurs across the world.
+
+                                                Hästens beds are free from potentially cancerous materials such as foam, rubber, polyurethane, latex and other synthetic components used by most of the bed manufacturers.
+
+                                                Hästens beds are made with the finest natural materials that allow your body to breathe while you sleep. Pure natural horsehair, cotton, wool, flax, Swedish pine and steel provide the best in comfort, quality and durability. Our unique, patented spring systems offer the perfect support to the neck and the back.
+
+                                                Our goal is to ensure that the 8 hours of your day you spend sleeping, are a relaxing and a rejuvenating experience that you can share with your loved ones.
+                                                Investing in a Hästens bed is truly a life-changing experience!
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- One Third (1/3) Column -->
-                                <div class="wrap mcb-wrap one-third column-margin-20px clearfix">
+                                <div class="wrap mcb-wrap one-third column-margin-20px brands-column clearfix">
                                     <!-- One Full Row-->
                                     <div class="column mcb-column one column_image ">
                                         <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
@@ -377,7 +431,7 @@ A Therapedic premium quality sleep set is designed and engineered to provide y
                                     </div>
                                 </div>
                                 <!-- One Third (1/3) Column -->
-                                <div class="wrap mcb-wrap one-third column-margin-20px clearfix">
+                                <div class="wrap mcb-wrap one-third column-margin-20px brands-column clearfix">
                                     <!-- One Full Row-->
                                     <div class="column mcb-column one column_image ">
                                         <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
@@ -512,7 +566,7 @@ Every mattress that we offer has its own unique set of features and experience b
                                 </div>
                             </div>
                         </div>-->
-                        <div class="section mcb-section " style="padding-top:40px; padding-bottom:80px; " id="how">
+                        <div class="section mcb-section " style="padding-top:40px; padding-bottom:80px; background: #fff600;" id="how">
                             <div class="section_wrapper mcb-section-inner">
                                 <!-- One Second (1/2) Column -->
                                 <div class="wrap mcb-wrap one-second clearfix" style="padding:0 7% 0 0; ">
@@ -537,9 +591,9 @@ Every mattress that we offer has its own unique set of features and experience b
                                 <div class="wrap mcb-wrap one-second clearfix" style="padding:50px 0 0; ">
                                     <!-- One Full Row-->
                                     <div class="column mcb-column one column_column works-block">
-                                        <div class="column_attr align_center">
+                                        <div class="column_attr align_center" style="margin:10px;">
                                             <h1 class="align_center"><i class="icon-thumbs-up"></i></h1>
-                                            <h4>1. Brand New Mattresses at 20% discount from the original MRP in retail stores</h4>
+                                            <h4>1. Brand New Mattresses at 15% discount from the original MRP in retail stores</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -547,7 +601,7 @@ Every mattress that we offer has its own unique set of features and experience b
                                 <div class="wrap mcb-wrap one-second clearfix" style="padding:50px 0 0; ">
                                     <!-- One Second (1/2) Column -->
                                     <div class="column mcb-column one column_column works-block">
-                                        <div class="column_attr align_center">
+                                        <div class="column_attr align_center" style="margin:10px;">
                                              <h1><i class="icon-cart"></i></h1>
                                             <h4>2. Showroom Display Pieces at 25% discount from the original Mrp in retail stores</h4>
                                         </div>
